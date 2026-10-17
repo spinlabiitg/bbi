@@ -1,0 +1,955 @@
+{
+ "source": "Vaani (ARTPARK-IISc), CC-BY-4.0; languages as stated by speakers",
+ "states": {
+  "Andaman & Nicobar Islands": {
+   "language": "Bengali",
+   "census_rank": 0,
+   "note": "No Vaani recordings from the islands; Bengali speakers recorded in West Bengal.",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/andamannicobarislands_0.mp3",
+     "gender": "Male",
+     "duration": 9.67,
+     "recorded_in": "Alipurduar, WestBengal",
+     "transcript": ""
+    },
+    {
+     "id": "9afd917103",
+     "file": "audio/states/andamannicobarislands_1.mp3",
+     "gender": "Male",
+     "duration": 5.64,
+     "recorded_in": "Alipurduar, WestBengal",
+     "transcript": ""
+    },
+    {
+     "id": "f2bbf7b542",
+     "file": "audio/states/andamannicobarislands_2.mp3",
+     "gender": "Male",
+     "duration": 6.1,
+     "recorded_in": "Alipurduar, WestBengal",
+     "transcript": "<static> যেখানে বেশ কয়েকজন মহিলা প্রদর্শনীতে রাখা জিনিসপত্র দেখছেন। </static>"
+    }
+   ]
+  },
+  "Andhra Pradesh": {
+   "language": "Telugu",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/andhrapradesh_0.mp3",
+     "gender": "Male",
+     "duration": 9.99,
+     "recorded_in": "Anantpur, AndhraPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "01708456cd",
+     "file": "audio/states/andhrapradesh_1.mp3",
+     "gender": "Female",
+     "duration": 9.83,
+     "recorded_in": "Anantpur, AndhraPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "de5d8f63a9",
+     "file": "audio/states/andhrapradesh_2.mp3",
+     "gender": "Male",
+     "duration": 8.1,
+     "recorded_in": "Anantpur, AndhraPradesh",
+     "transcript": ""
+    }
+   ]
+  },
+  "Arunachal Pradesh": {
+   "language": "Nyishi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "bc284a6431",
+     "file": "audio/states/arunachalpradesh_0.mp3",
+     "gender": "Male",
+     "duration": 6.08,
+     "recorded_in": "PapumPare, ArunachalPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "632abd7a91",
+     "file": "audio/states/arunachalpradesh_1.mp3",
+     "gender": "Female",
+     "duration": 6.06,
+     "recorded_in": "PapumPare, ArunachalPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "58a637fbd3",
+     "file": "audio/states/arunachalpradesh_2.mp3",
+     "gender": "Female",
+     "duration": 6.01,
+     "recorded_in": "PapumPare, ArunachalPradesh",
+     "transcript": ""
+    }
+   ]
+  },
+  "Assam": {
+   "language": "Assamese",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "ed43b27f85",
+     "file": "audio/states/assam_0.mp3",
+     "gender": "Female",
+     "duration": 7.45,
+     "recorded_in": "Hailakandi, Assam",
+     "transcript": ""
+    },
+    {
+     "id": "f265b41c7a",
+     "file": "audio/states/assam_1.mp3",
+     "gender": "Female",
+     "duration": 5.01,
+     "recorded_in": "Hailakandi, Assam",
+     "transcript": ""
+    },
+    {
+     "id": "eb4d96c17c",
+     "file": "audio/states/assam_2.mp3",
+     "gender": "Female",
+     "duration": 5.94,
+     "recorded_in": "Hailakandi, Assam",
+     "transcript": ""
+    }
+   ]
+  },
+  "Bihar": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/bihar_0.mp3",
+     "gender": "Male",
+     "duration": 9.97,
+     "recorded_in": "Araria, Bihar",
+     "transcript": ""
+    },
+    {
+     "id": "46eeb60829",
+     "file": "audio/states/bihar_1.mp3",
+     "gender": "Male",
+     "duration": 9.17,
+     "recorded_in": "Araria, Bihar",
+     "transcript": ""
+    },
+    {
+     "id": "cbe240f330",
+     "file": "audio/states/bihar_2.mp3",
+     "gender": "Male",
+     "duration": 8.75,
+     "recorded_in": "Araria, Bihar",
+     "transcript": ""
+    }
+   ]
+  },
+  "Chandigarh": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "0a1aed546e",
+     "file": "audio/states/chandigarh_0.mp3",
+     "gender": "Male",
+     "duration": 8.64,
+     "recorded_in": "Chandigarh, Chandigarh",
+     "transcript": "लाइट{lighting} मीटिंग बहुत खतरनाक हैं बैक{back} ग्राउंड{ground} बहुत अव्स्म{awesome} हैं माइंड{mind} ब्लोविंग{blowing} स्टैं<pause> आउटस्टैंडिंग{outstanding} चेयर{chair} का तो बात ही लाजवाब हैं।"
+    },
+    {
+     "id": "50eea7e403",
+     "file": "audio/states/chandigarh_1.mp3",
+     "gender": "Male",
+     "duration": 9.92,
+     "recorded_in": "Chandigarh, Chandigarh",
+     "transcript": "या फिर होटल {hotel} के <pause> [breathing] अभी खुलने का समय नहीं हुआ है <pause> [breathing] क्योंकि ए_सी {A_C} भी बंद है पंखे भी बंद हैं और सारा होटल {hotel} खाली है और साफ सुथरा है।"
+    },
+    {
+     "id": "2e29143fa3",
+     "file": "audio/states/chandigarh_2.mp3",
+     "gender": "Female",
+     "duration": 8.72,
+     "recorded_in": "Chandigarh, Chandigarh",
+     "transcript": "और कुछ लाइटें {light} दिखाई दे रही है जो व्हाइट {white} कलर {colour} की है <pause> [breathing] और और कुछ तस्वीरें दिखाई दे रही है और एक ए_सी {A_C} दिखाई दे रहा है।"
+    }
+   ]
+  },
+  "Chhattisgarh": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "0530fbd539",
+     "file": "audio/states/chhattisgarh_0.mp3",
+     "gender": "Female",
+     "duration": 5.15,
+     "recorded_in": "Balrampur, Chhattisgarh",
+     "transcript": ""
+    },
+    {
+     "id": "837c3a8c23",
+     "file": "audio/states/chhattisgarh_1.mp3",
+     "gender": "Male",
+     "duration": 9.96,
+     "recorded_in": "Balrampur, Chhattisgarh",
+     "transcript": ""
+    }
+   ]
+  },
+  "Dadra & Nagar Haveli": {
+   "language": "Bhili",
+   "census_rank": 0,
+   "note": "No Vaani recordings from Dadra & Nagar Haveli; Bhili speakers recorded elsewhere.",
+   "clips": [
+    {
+     "id": "c2183c93d3",
+     "file": "audio/states/dadranagarhaveli_1.mp3",
+     "gender": "Female",
+     "duration": 9.81,
+     "recorded_in": "Dhule, Maharashtra",
+     "transcript": ""
+    },
+    {
+     "id": "37db58b639",
+     "file": "audio/states/dadranagarhaveli_2.mp3",
+     "gender": "Female",
+     "duration": 5.98,
+     "recorded_in": "Dhule, Maharashtra",
+     "transcript": "हे हे लाकड़ा काई काई बणनार ला <pause> हेते <talking> कचरा <pause> नीचेज पड़ला हे. </talking>"
+    }
+   ]
+  },
+  "Daman & Diu": {
+   "language": "Gujarati",
+   "census_rank": 0,
+   "note": "No Vaani recordings from Daman & Diu; Gujarati speakers recorded in Gujarat.",
+   "clips": [
+    {
+     "id": "6bf237149a",
+     "file": "audio/states/damandiu_0.mp3",
+     "gender": "Male",
+     "duration": 8.98,
+     "recorded_in": "DevbhoomiDwarka, Gujarat",
+     "transcript": ""
+    },
+    {
+     "id": "57032dfb7f",
+     "file": "audio/states/damandiu_2.mp3",
+     "gender": "Male",
+     "duration": 8.8,
+     "recorded_in": "DevbhoomiDwarka, Gujarat",
+     "transcript": ""
+    }
+   ]
+  },
+  "Goa": {
+   "language": "Konkani",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "3517a33836",
+     "file": "audio/states/goa_0.mp3",
+     "gender": "Female",
+     "duration": 9.77,
+     "recorded_in": "NorthSouthGoa, Goa",
+     "transcript": ""
+    },
+    {
+     "id": "229b2aa9f9",
+     "file": "audio/states/goa_1.mp3",
+     "gender": "Female",
+     "duration": 8.47,
+     "recorded_in": "NorthSouthGoa, Goa",
+     "transcript": ""
+    },
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/goa_2.mp3",
+     "gender": "Female",
+     "duration": 5.44,
+     "recorded_in": "NorthSouthGoa, Goa",
+     "transcript": ""
+    }
+   ]
+  },
+  "Gujarat": {
+   "language": "Gujarati",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "6bf237149a",
+     "file": "audio/states/gujarat_0.mp3",
+     "gender": "Male",
+     "duration": 8.98,
+     "recorded_in": "DevbhoomiDwarka, Gujarat",
+     "transcript": ""
+    },
+    {
+     "id": "57032dfb7f",
+     "file": "audio/states/gujarat_2.mp3",
+     "gender": "Male",
+     "duration": 8.8,
+     "recorded_in": "DevbhoomiDwarka, Gujarat",
+     "transcript": ""
+    }
+   ]
+  },
+  "Haryana": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "0f089a6e2a",
+     "file": "audio/states/haryana_0.mp3",
+     "gender": "Male",
+     "duration": 9.91,
+     "recorded_in": "CharkhiDadri, Haryana",
+     "transcript": ""
+    },
+    {
+     "id": "bca074da6b",
+     "file": "audio/states/haryana_1.mp3",
+     "gender": "Male",
+     "duration": 8.67,
+     "recorded_in": "CharkhiDadri, Haryana",
+     "transcript": ""
+    }
+   ]
+  },
+  "Himachal Pradesh": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "ed43b27f85",
+     "file": "audio/states/himachalpradesh_0.mp3",
+     "gender": "Female",
+     "duration": 9.75,
+     "recorded_in": "Shimla, HimachalPradesh",
+     "transcript": "<noise> लड़के लड़कियां <pause> फोटो {photo} खिंचवा रहे हैं कुछ लोग <pause> घूम रहे हैं <pause> [inhaling] पीछे बहोत ही सुंदर पेड़ दिखाई दे रहे हैं। </noise>"
+    },
+    {
+     "id": "85eea72d73",
+     "file": "audio/states/himachalpradesh_2.mp3",
+     "gender": "Female",
+     "duration": 5.59,
+     "recorded_in": "Shimla, HimachalPradesh",
+     "transcript": "<noise> इनकी चेहरे पर <pause> ब्लर {blur} दिखाई <pause> दे रहा <pause> है। </noise>"
+    }
+   ]
+  },
+  "Jammu & Kashmir": {
+   "language": "Kashmiri",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "a43040e20b",
+     "file": "audio/states/jammukashmir_0.mp3",
+     "gender": "Male",
+     "duration": 7.55,
+     "recorded_in": "Srinagar, JammuAndKashmir",
+     "transcript": ""
+    },
+    {
+     "id": "4773d7e939",
+     "file": "audio/states/jammukashmir_1.mp3",
+     "gender": "Male",
+     "duration": 7.25,
+     "recorded_in": "Srinagar, JammuAndKashmir",
+     "transcript": ""
+    },
+    {
+     "id": "eec4f54de2",
+     "file": "audio/states/jammukashmir_2.mp3",
+     "gender": "Male",
+     "duration": 5.31,
+     "recorded_in": "Srinagar, JammuAndKashmir",
+     "transcript": ""
+    }
+   ]
+  },
+  "Jharkhand": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/jharkhand_0.mp3",
+     "gender": "Female",
+     "duration": 9.83,
+     "recorded_in": "Deoghar, Jharkhand",
+     "transcript": ""
+    },
+    {
+     "id": "7b5992ff23",
+     "file": "audio/states/jharkhand_1.mp3",
+     "gender": "Female",
+     "duration": 6.67,
+     "recorded_in": "Deoghar, Jharkhand",
+     "transcript": ""
+    },
+    {
+     "id": "3446f7d029",
+     "file": "audio/states/jharkhand_2.mp3",
+     "gender": "Male",
+     "duration": 6.94,
+     "recorded_in": "Garhwa, Jharkhand",
+     "transcript": "यह एक दुकान का बाहर का दृश्य है <pause> [breathing] यहां पर तीन गाड़ी लगे हुए हैं जो ब्लैक {black} और व्हाइट {white} कलर {colour} का है।"
+    }
+   ]
+  },
+  "Karnataka": {
+   "language": "Kannada",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "4133b476c6",
+     "file": "audio/states/karnataka_0.mp3",
+     "gender": "Female",
+     "duration": 7.24,
+     "recorded_in": "Bangalore, Karnataka",
+     "transcript": "<noise> ಸಹ ಕಾಣಬಹುದು <pause> ಇಲ್ಲಿ ಒಂದು ಚೇರ್ {chair} ಖಾಲಿ ಇದೆ <pause> ಇಲ್ಲಿ <pause> ತುಂಬಾ ಟೇಬಲ್ {table} ಗಳು ಇವೆ ಆ ಟೇಬಲ್ {table} ಗಳ. </noise>"
+    },
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/karnataka_1.mp3",
+     "gender": "Male",
+     "duration": 9.28,
+     "recorded_in": "Bangalore, Karnataka",
+     "transcript": "ಪ್ಲಸ್ {plus} ಪೋಸ್ಟ್  ಆಫೀಸ್ {PostOffice}ಆಗಿರೋದರಿಂದ ಯಾವುದೇತರ ಆಗಲಿ<pause> ಎಲ್ಲಾ ಟೈಪ್ಸ್ {Types} ಪೋಸ್ಟ್ {Post}ಗಳು ಆನ ದ ಡೇ {On the day} ನೇ ಬರುತ್ತೆ ಮತ್ತೆ ಅಲ್ಲಿ ಎಲ್ಲಾ ಪೋಸ್ಟ್ ಬ್ಯಾಗ್ಸ್ ನ ಅದ್ನ--"
+    },
+    {
+     "id": "5b762cb4ef",
+     "file": "audio/states/karnataka_2.mp3",
+     "gender": "Female",
+     "duration": 5.25,
+     "recorded_in": "Bangalore, Karnataka",
+     "transcript": "ಇಲ್ಲಿ ಬ್ಲಾಕ್ {Black} ಕಲರ್ {Colour} ಟಾರ್ಪಲಿಂದ <pause> ಸ್ವಲ್ಪ ಗೇಟಿನ ಸರಳುಗಳನ್ನು ಮುಚ್ಚಲಾಗಿದೆ."
+    }
+   ]
+  },
+  "Kerala": {
+   "language": "Malayalam",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/kerala_0.mp3",
+     "gender": "Male",
+     "duration": 9.92,
+     "recorded_in": "Kasaragod, Kerala",
+     "transcript": ""
+    },
+    {
+     "id": "776cf24372",
+     "file": "audio/states/kerala_1.mp3",
+     "gender": "Female",
+     "duration": 5.85,
+     "recorded_in": "Kasaragod, Kerala",
+     "transcript": ""
+    },
+    {
+     "id": "e72a5e682d",
+     "file": "audio/states/kerala_2.mp3",
+     "gender": "Male",
+     "duration": 8.16,
+     "recorded_in": "Kasaragod, Kerala",
+     "transcript": ""
+    }
+   ]
+  },
+  "Lakshadweep": {
+   "language": "Malayalam",
+   "census_rank": 0,
+   "note": "No Vaani recordings from Lakshadweep; Malayalam speakers recorded in Kerala.",
+   "clips": [
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/lakshadweep_0.mp3",
+     "gender": "Male",
+     "duration": 9.92,
+     "recorded_in": "Kasaragod, Kerala",
+     "transcript": ""
+    },
+    {
+     "id": "776cf24372",
+     "file": "audio/states/lakshadweep_1.mp3",
+     "gender": "Female",
+     "duration": 5.85,
+     "recorded_in": "Kasaragod, Kerala",
+     "transcript": ""
+    },
+    {
+     "id": "e72a5e682d",
+     "file": "audio/states/lakshadweep_2.mp3",
+     "gender": "Male",
+     "duration": 8.16,
+     "recorded_in": "Kasaragod, Kerala",
+     "transcript": ""
+    }
+   ]
+  },
+  "Madhya Pradesh": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "7d65532691",
+     "file": "audio/states/madhyapradesh_0.mp3",
+     "gender": "Male",
+     "duration": 6.38,
+     "recorded_in": "Bhopal, MadhyaPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/madhyapradesh_1.mp3",
+     "gender": "Female",
+     "duration": 9.73,
+     "recorded_in": "Bhopal, MadhyaPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "46e1544ec5",
+     "file": "audio/states/madhyapradesh_2.mp3",
+     "gender": "Female",
+     "duration": 6.87,
+     "recorded_in": "Bhopal, MadhyaPradesh",
+     "transcript": ""
+    }
+   ]
+  },
+  "Maharashtra": {
+   "language": "Marathi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "87fca02003",
+     "file": "audio/states/maharashtra_1.mp3",
+     "gender": "Female",
+     "duration": 9.56,
+     "recorded_in": "Aurangabad, Maharashtra",
+     "transcript": ""
+    },
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/maharashtra_2.mp3",
+     "gender": "Male",
+     "duration": 9.14,
+     "recorded_in": "Aurangabad, Maharashtra",
+     "transcript": ""
+    }
+   ]
+  },
+  "Manipur": {
+   "language": "Manipuri",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "6202eaedf5",
+     "file": "audio/states/manipur_0.mp3",
+     "gender": "Female",
+     "duration": 5.14,
+     "recorded_in": "ImphalWest, Manipur",
+     "transcript": ""
+    },
+    {
+     "id": "f8fe12cba4",
+     "file": "audio/states/manipur_1.mp3",
+     "gender": "Female",
+     "duration": 5.47,
+     "recorded_in": "ImphalWest, Manipur",
+     "transcript": ""
+    },
+    {
+     "id": "02f093aca6",
+     "file": "audio/states/manipur_2.mp3",
+     "gender": "Male",
+     "duration": 7.58,
+     "recorded_in": "ImphalWest, Manipur",
+     "transcript": ""
+    }
+   ]
+  },
+  "Meghalaya": {
+   "language": "Garo",
+   "census_rank": 1,
+   "note": "Khasi, the largest language (47%), is not in Vaani; this is Garo, the second largest (32%).",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/meghalaya_0.mp3",
+     "gender": "Female",
+     "duration": 9.59,
+     "recorded_in": "NorthGaroHills, Meghalaya",
+     "transcript": ""
+    },
+    {
+     "id": "313505ba15",
+     "file": "audio/states/meghalaya_2.mp3",
+     "gender": "Female",
+     "duration": 5.4,
+     "recorded_in": "NorthGaroHills, Meghalaya",
+     "transcript": "<noise> pakma samtangtangchi tangsek tangsim [inhaling] a·mang rong aro gipok <pause> rongko nonga. </noise>"
+    }
+   ]
+  },
+  "Mizoram": {
+   "language": "Mizo",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "ed43b27f85",
+     "file": "audio/states/mizoram_0.mp3",
+     "gender": "Male",
+     "duration": 9.66,
+     "recorded_in": "Aizawl, Mizoram",
+     "transcript": ""
+    },
+    {
+     "id": "24ab03278e",
+     "file": "audio/states/mizoram_1.mp3",
+     "gender": "Male",
+     "duration": 5.18,
+     "recorded_in": "Aizawl, Mizoram",
+     "transcript": ""
+    },
+    {
+     "id": "57d78c633f",
+     "file": "audio/states/mizoram_2.mp3",
+     "gender": "Male",
+     "duration": 6.77,
+     "recorded_in": "Aizawl, Mizoram",
+     "transcript": ""
+    }
+   ]
+  },
+  "NCT of Delhi": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "ed43b27f85",
+     "file": "audio/states/nctofdelhi_1.mp3",
+     "gender": "Female",
+     "duration": 9.95,
+     "recorded_in": "NewDelhi, Delhi",
+     "transcript": ""
+    },
+    {
+     "id": "9b79776fa3",
+     "file": "audio/states/nctofdelhi_2.mp3",
+     "gender": "Female",
+     "duration": 5.44,
+     "recorded_in": "NewDelhi, Delhi",
+     "transcript": ""
+    }
+   ]
+  },
+  "Nagaland": {
+   "language": "Ao",
+   "census_rank": 1,
+   "note": "Konyak, the largest language (12%), is not in Vaani; this is Ao, the second largest (12%).",
+   "clips": [
+    {
+     "id": "27a36f7be7",
+     "file": "audio/states/nagaland_0.mp3",
+     "gender": "Female",
+     "duration": 5.89,
+     "recorded_in": "Kohima, Nagaland",
+     "transcript": ""
+    },
+    {
+     "id": "7f6bd68cd5",
+     "file": "audio/states/nagaland_2.mp3",
+     "gender": "Female",
+     "duration": 9.36,
+     "recorded_in": "Dimapur, Nagaland",
+     "transcript": ""
+    }
+   ]
+  },
+  "Odisha": {
+   "language": "Odia",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "276db77b21",
+     "file": "audio/states/odisha_1.mp3",
+     "gender": "Female",
+     "duration": 6.76,
+     "recorded_in": "Khordha, Odisha",
+     "transcript": ""
+    }
+   ]
+  },
+  "Puducherry": {
+   "language": "Tamil",
+   "census_rank": 0,
+   "note": "No Vaani recordings from Puducherry; Tamil speakers recorded in Tamil Nadu.",
+   "clips": [
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/puducherry_0.mp3",
+     "gender": "Male",
+     "duration": 9.9,
+     "recorded_in": "Chennai, TamilNadu",
+     "transcript": ""
+    },
+    {
+     "id": "4962e973c8",
+     "file": "audio/states/puducherry_1.mp3",
+     "gender": "Male",
+     "duration": 5.63,
+     "recorded_in": "Kanyakumari, TamilNadu",
+     "transcript": ""
+    },
+    {
+     "id": "be929c491e",
+     "file": "audio/states/puducherry_2.mp3",
+     "gender": "Male",
+     "duration": 7.7,
+     "recorded_in": "Kanyakumari, TamilNadu",
+     "transcript": ""
+    }
+   ]
+  },
+  "Punjab": {
+   "language": "Punjabi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "0f089a6e2a",
+     "file": "audio/states/punjab_0.mp3",
+     "gender": "Female",
+     "duration": 8.88,
+     "recorded_in": "Fazilka, Punjab",
+     "transcript": ""
+    },
+    {
+     "id": "58eb0e8c68",
+     "file": "audio/states/punjab_2.mp3",
+     "gender": "Female",
+     "duration": 8.28,
+     "recorded_in": "Kapurthala, Punjab",
+     "transcript": ""
+    }
+   ]
+  },
+  "Rajasthan": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/rajasthan_0.mp3",
+     "gender": "Male",
+     "duration": 9.96,
+     "recorded_in": "Barmer, Rajasthan",
+     "transcript": "<noise> <bird_sound> इसमें एक टेबल {table} रखी हुई है <pause> उसके ऊपर बहोत सारे ऊके रखे हुए है और टेबल {table} के पास सॉफे सोफे {sofa} भी लगे हुए हैं। </bird_sound> </noise>"
+    },
+    {
+     "id": "d040e238ba",
+     "file": "audio/states/rajasthan_1.mp3",
+     "gender": "Male",
+     "duration": 9.71,
+     "recorded_in": "Barmer, Rajasthan",
+     "transcript": "<noise> ये स्कूल {school} है स्कूल {school} के अंदर जा रहा हैं एक माता और <pause> [breathing] स्कूल {school} का रास्ता कच्चा हैं और उधर नीम भी लगे हुए हैं। </noise>"
+    }
+   ]
+  },
+  "Sikkim": {
+   "language": "Nepali",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/sikkim_0.mp3",
+     "gender": "Male",
+     "duration": 5.02,
+     "recorded_in": "Gangtok, Sikkim",
+     "transcript": ""
+    },
+    {
+     "id": "1c3dbe9cc5",
+     "file": "audio/states/sikkim_1.mp3",
+     "gender": "Female",
+     "duration": 8.06,
+     "recorded_in": "Gangtok, Sikkim",
+     "transcript": "<static_noise> मान्छेहरू पुरै देखिराखेको छन् अनि बीचमा चै रत देखिरहेछ जहाँ चै भगवानको <pause> मूर्ति लानु हुँदैछ। </static_noise>"
+    }
+   ]
+  },
+  "Tamil Nadu": {
+   "language": "Tamil",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "168af1a1ce",
+     "file": "audio/states/tamilnadu_0.mp3",
+     "gender": "Male",
+     "duration": 9.9,
+     "recorded_in": "Chennai, TamilNadu",
+     "transcript": ""
+    },
+    {
+     "id": "4962e973c8",
+     "file": "audio/states/tamilnadu_1.mp3",
+     "gender": "Male",
+     "duration": 5.63,
+     "recorded_in": "Kanyakumari, TamilNadu",
+     "transcript": ""
+    },
+    {
+     "id": "be929c491e",
+     "file": "audio/states/tamilnadu_2.mp3",
+     "gender": "Male",
+     "duration": 7.7,
+     "recorded_in": "Kanyakumari, TamilNadu",
+     "transcript": ""
+    }
+   ]
+  },
+  "Tripura": {
+   "language": "Bengali",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "fc9147f8e4",
+     "file": "audio/states/tripura_0.mp3",
+     "gender": "Female",
+     "duration": 5.23,
+     "recorded_in": "Dhalai, Tripura",
+     "transcript": ""
+    },
+    {
+     "id": "83768fea1c",
+     "file": "audio/states/tripura_1.mp3",
+     "gender": "Male",
+     "duration": 5.64,
+     "recorded_in": "Dhalai, Tripura",
+     "transcript": ""
+    },
+    {
+     "id": "fcc0e71339",
+     "file": "audio/states/tripura_2.mp3",
+     "gender": "Male",
+     "duration": 5.38,
+     "recorded_in": "Dhalai, Tripura",
+     "transcript": ""
+    }
+   ]
+  },
+  "Uttar Pradesh": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "eb4d0247f6",
+     "file": "audio/states/uttarpradesh_0.mp3",
+     "gender": "Male",
+     "duration": 8.98,
+     "recorded_in": "Budaun, UttarPradesh",
+     "transcript": ""
+    },
+    {
+     "id": "cc92120163",
+     "file": "audio/states/uttarpradesh_2.mp3",
+     "gender": "Female",
+     "duration": 9.98,
+     "recorded_in": "Budaun, UttarPradesh",
+     "transcript": ""
+    }
+   ]
+  },
+  "Uttarakhand": {
+   "language": "Hindi",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/uttarakhand_0.mp3",
+     "gender": "Male",
+     "duration": 9.91,
+     "recorded_in": "TehriGarhwal, Uttarakhand",
+     "transcript": ""
+    },
+    {
+     "id": "403596a256",
+     "file": "audio/states/uttarakhand_2.mp3",
+     "gender": "Female",
+     "duration": 8.9,
+     "recorded_in": "TehriGarhwal, Uttarakhand",
+     "transcript": ""
+    }
+   ]
+  },
+  "West Bengal": {
+   "language": "Bengali",
+   "census_rank": 0,
+   "note": "",
+   "clips": [
+    {
+     "id": "f0e4926b3c",
+     "file": "audio/states/westbengal_0.mp3",
+     "gender": "Male",
+     "duration": 9.67,
+     "recorded_in": "Alipurduar, WestBengal",
+     "transcript": ""
+    },
+    {
+     "id": "9afd917103",
+     "file": "audio/states/westbengal_1.mp3",
+     "gender": "Male",
+     "duration": 5.64,
+     "recorded_in": "Alipurduar, WestBengal",
+     "transcript": ""
+    },
+    {
+     "id": "f2bbf7b542",
+     "file": "audio/states/westbengal_2.mp3",
+     "gender": "Male",
+     "duration": 6.1,
+     "recorded_in": "Alipurduar, WestBengal",
+     "transcript": "<static> যেখানে বেশ কয়েকজন মহিলা প্রদর্শনীতে রাখা জিনিসপত্র দেখছেন। </static>"
+    }
+   ]
+  }
+ },
+ "reviewed": true
+}

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bahubhashi India · Visualizing India’s Spoken Language Landscape</title>
+  <meta name="author" content="SPIN Lab, Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati">
+  <meta name="description" content="How linguistically diverse is each Indian state? Mother tongues from the 2011 Census, Table C-16.">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&display=swap">
+  <script>
+    // Links into a view (?m=...) or the review page go straight to the map.
+    if (/[?&](m|review)\b/.test(location.search)) document.documentElement.classList.add("no-intro");
+  </script>
+</head>
+<body class="india" data-public data-views="night,mosaic,scripts,voices" data-arrange="stripes">
+  <!-- Landing screen: covers the map until "Let's see"; skipped for links into a view (?m=...) -->
+  <section id="intro" aria-labelledby="intro-title">
+    <div class="intro-inner">
+      <div class="intro-glyphs" aria-hidden="true"></div>
+      <div class="intro-grid">
+        <div class="intro-hero">
+          <p class="intro-kicker">Bahubhashi India</p>
+          <h1 id="intro-title" class="intro-title">
+            <span class="t1">Visualizing India’s</span>
+            <span class="t2">Spoken Language</span>
+            <span class="t3">Landscape</span>
+          </h1>
+          <button type="button" id="intro-go" class="intro-go">Let's see <span aria-hidden="true">→</span></button>
+          <div class="intro-brand">
+            <p>A spinout from <b>SPIN Lab</b>, Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati, India</p>
+            <p class="intro-pitch">We build AI that listens, from speech, music and breath sounds to street noise, and turns everyday
+              sensing into open data, visualizations and AI-based tools. Students, researchers and industry partners:
+              <a href="https://spinlabiitg.github.io/" target="_blank" rel="noopener">come work with us <span aria-hidden="true">→</span></a></p>
+          </div>
+        </div>
+        <div class="intro-copy">
+          <p class="intro-text">India speaks in many voices. Yet most maps paint each state in a single language and hide how many
+            languages live side by side. In the 2011 Census, people wrote down their mother tongue in their own words:</p>
+          <ol class="intro-funnel">
+            <li><b>19,569</b><span>names written for a mother tongue</span></li>
+            <li><b>1,369</b><span>mother tongues, after linguists sorted them</span></li>
+            <li><b>121</b><span>languages they are grouped under, which the maps show</span></li>
+          </ol>
+          <div class="intro-cards">
+            <div class="intro-card sch">
+              <p class="n">22 <span>scheduled</span></p>
+              <p>Listed in the Eighth Schedule of the Constitution, from Assamese to Urdu. The mother tongue of <b>96.7%</b> of Indians.</p>
+            </div>
+            <div class="intro-card non">
+              <p class="n">99 <span>non-scheduled</span></p>
+              <p>No constitutional status, but at least 10,000 speakers each, such as Bhili, Gondi, Khasi, Tulu and Mizo. The mother tongue of <b>3.1%</b>; another 0.15% named a language outside the 121.</p>
+            </div>
+          </div>
+          <p class="intro-note">Which list a language is on is a political decision, not a linguistic one. Bhojpuri, with about 5 crore
+            speakers, is on neither: the census counts it under Hindi.</p>
+          <p class="intro-text">We set out to show how linguistically diverse each state is, and to let you hear a bit of it.
+            Speaker counts come from the <a href="https://censusindia.gov.in/" target="_blank" rel="noopener">Census of India 2011</a> (Table C-16), the voices from
+            <a href="https://vaani.iisc.ac.in/" target="_blank" rel="noopener">Vaani</a> by <a href="https://iisc.ac.in/" target="_blank" rel="noopener">IISc Bangalore</a> and
+            <a href="https://artpark.in/" target="_blank" rel="noopener">ARTPARK</a>, and the scripts from <a href="https://cldr.unicode.org/" target="_blank" rel="noopener">Unicode CLDR</a>.</p>
+          <details class="intro-how">
+            <summary>How we made it</summary>
+            <p>We read Table C-16 straight from the census report: the number of people in every state and union territory whose
+              mother tongue is each of the 121 languages, checked against India's 2011 population of 1,21,08,54,977. For each state
+              we measure diversity two ways: the chance that two people picked at random have different mother tongues, and the
+              <i>effective number of languages</i>, how many equally large languages would give the same mix. States are drawn as
+              they were in 2011, so Telangana is part of Andhra Pradesh and Ladakh part of Jammu &amp; Kashmir.</p>
+            <p>For the voices, we took each state's largest language and picked people from that state speaking it, from Vaani's
+              recordings of people describing everyday pictures. Each clip is trimmed to 5–10 seconds, matched in loudness and
+              listened to before it goes on the map. Where Vaani has no one speaking a language, or no one from a place, the state's
+              panel says what you hear instead. Scripts are each language's usual script according to Unicode CLDR, drawn in Noto fonts.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+  <header>
+    <h1>Bahubhashi India</h1>
+    <p class="sub">Language diversity by state · Census 2011</p>
+  </header>
+  <main>
+    <div class="mapwrap">
+      <div id="map" role="application" aria-label="Map of India states shaded by language diversity"></div>
+      <a class="spin-badge" href="https://spinlabiitg.github.io/" target="_blank" rel="noopener"
+         aria-label="A spinout from SPIN Lab, Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati, India">
+        <svg class="spin-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <g class="spin-arcs" fill="none" stroke-linecap="round">
+            <path d="M20 12 A8 8 0 0 1 28 20" stroke-width="2.6"/>
+            <path d="M12 20 A8 8 0 0 1 20 12" stroke-width="2.6" opacity=".35"/>
+            <path d="M32.5 20 A12.5 12.5 0 0 1 20 32.5" stroke-width="2.2"/>
+            <path d="M20 32.5 A12.5 12.5 0 0 1 7.5 20" stroke-width="2.2" opacity=".35"/>
+            <path d="M3 20 A17 17 0 0 1 20 3" stroke-width="1.8"/>
+            <path d="M20 3 A17 17 0 0 1 37 20" stroke-width="1.8" opacity=".35"/>
+          </g>
+          <circle cx="20" cy="20" r="3.4" class="spin-dot"/>
+        </svg>
+        <span class="spin-text">
+          <span class="spin-kicker">a spinout from</span>
+          <span class="spin-name"><b>SPIN</b> Lab</span>
+          <span class="spin-org">MFSDSAI · IIT Guwahati</span>
+        </span>
+      </a>
+      <div id="metric-bar" role="radiogroup" aria-label="Diversity measure"></div>
+      <div id="legend" aria-hidden="true"></div>
+      <details id="style-box" open hidden><summary>Style</summary><div class="style-body"></div></details>
+    </div>
+    <aside id="panel" aria-live="polite">
+      <div id="panel-body"></div>
+    </aside>
+  </main>
+  <footer class="brand">
+    <span>A spinout from <a href="https://spinlabiitg.github.io/" target="_blank" rel="noopener">SPIN Lab</a><span class="brand-long">, Mehta Family School of Data Science and Artificial Intelligence</span>, IIT Guwahati, India</span>
+    <span class="sep">·</span> <button type="button" class="credits-link" id="credits-open">Data, credits &amp; disclaimer</button>
+    <span class="copy">© 2026 Neeraj Sharma, SPIN Lab, IIT Guwahati · Code <a href="LICENSE.txt" target="_blank" rel="noopener">MIT</a> · Content <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></span>
+  </footer>
+  <dialog id="credits" class="info-dialog" aria-labelledby="credits-title">
+    <form method="dialog"><button class="credits-close" aria-label="Close">×</button></form>
+    <h2 id="credits-title">Data, credits &amp; disclaimer</h2>
+    <dl>
+      <dt>Languages</dt>
+      <dd>Census of India 2011, <i>Language: India, States and Union Territories</i> (Paper 1 of 2018), Table C-16 and Statement 9.
+        Office of the Registrar General &amp; Census Commissioner, India. <a href="https://censusindia.gov.in/" target="_blank" rel="noopener">censusindia.gov.in</a></dd>
+      <dt>Speech</dt>
+      <dd><a href="https://vaani.iisc.ac.in/" target="_blank" rel="noopener">Vaani</a> by IISc Bangalore and ARTPARK, licensed
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        We trimmed the clips to 5–10 seconds, matched their loudness, and kept only clips we listened to and checked.
+        Languages are as the speakers stated them.</dd>
+      <dt>Boundaries</dt>
+      <dd><a href="https://github.com/datta07/INDIAN-SHAPEFILES" target="_blank" rel="noopener">INDIAN-SHAPEFILES</a> (MIT licence),
+        merged to the 2011 census units.</dd>
+      <dt>Scripts</dt>
+      <dd>Likely script of each language from <a href="https://cldr.unicode.org/" target="_blank" rel="noopener">Unicode CLDR</a>
+        (Unicode License v3). Letters drawn in <a href="https://fonts.google.com/noto" target="_blank" rel="noopener">Noto</a> fonts (SIL Open Font License).</dd>
+      <dt>Software</dt>
+      <dd><a href="https://maplibre.org/" target="_blank" rel="noopener">MapLibre GL JS</a> (BSD-3-Clause) and
+        <a href="https://h3geo.org/" target="_blank" rel="noopener">H3</a> (Apache 2.0).</dd>
+    </dl>
+    <h3 class="credits-h">Disclaimer</h3>
+    <ul class="credits-disclaimer">
+      <li>This is a research and educational visualization. It is not an official publication of the Government of India or
+        the Office of the Registrar General &amp; Census Commissioner.</li>
+      <li>Speaker numbers are reproduced from the 2011 Census as published. Language names, groupings and families are the census's own;
+        many mother tongues are counted under a larger language.</li>
+      <li>Boundaries are approximate and for illustration only. They follow the 2011 census units (Andhra Pradesh includes Telangana;
+        Jammu &amp; Kashmir includes Ladakh) and are not an authoritative depiction of India's borders.</li>
+      <li>Voice clips are short samples of individual speakers, with the language each speaker stated. A few clips cannot
+        represent how a language is spoken across a whole state.</li>
+      <li>Everything is provided as is, without warranty. Corrections are welcome.</li>
+    </ul>
+    <p class="credits-note credits-copy">© 2026 Neeraj Sharma, <a href="https://spinlabiitg.github.io/" target="_blank" rel="noopener">SPIN Lab</a>,
+      Mehta Family School of Data Science and Artificial Intelligence, IIT Guwahati, India. The code is released under the
+      <a href="LICENSE.txt" target="_blank" rel="noopener">MIT licence</a>; the maps, visualizations and text under
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> (<a href="LICENSE-CONTENT.txt" target="_blank" rel="noopener">details</a>).
+      Data, recordings, fonts and libraries remain under their own sources' terms, listed above.</p>
+  </dialog>
+  <dialog id="formulas" class="info-dialog" aria-labelledby="formulas-title">
+    <form method="dialog"><button class="credits-close" aria-label="Close">×</button></form>
+    <h2 id="formulas-title">How the measures are calculated</h2>
+    <div class="formulas-body"></div>
+  </dialog>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://unpkg.com/h3-js@4.1.0/dist/h3-js.umd.js"></script>
+  <script type="module" src="india.js"></script>
+  <script>
+    // Landing screen: letters of a dozen Indian scripts floating along the top and bottom edges, then "Let's see".
+    (() => {
+      const intro = document.getElementById("intro");
+      if (document.documentElement.classList.contains("no-intro")) { intro.hidden = true; return; }
+      const GLYPHS = ["अ", "অ", "ਅ", "અ", "ଅ", "அ", "అ", "ಅ", "അ", "ا", "ᱚ", "ꯑ", "क", "ক", "க", "ക", "ಕ", "క", "ਕ", "ક", "ꯀ", "ᱠ"];
+      const FONTS = ["Devanagari", "Bengali", "Gurmukhi", "Gujarati", "Oriya", "Tamil", "Telugu", "Kannada", "Malayalam", "Ol Chiki", "Meetei Mayek"];
+      const css = document.createElement("link");
+      css.rel = "stylesheet";
+      css.href = "https://fonts.googleapis.com/css2?" + FONTS.map((f) => "family=Noto+Sans+" + f.replace(/ /g, "+")).join("&") +
+        "&family=Noto+Naskh+Arabic&text=" + encodeURIComponent(GLYPHS.join("")) + "&display=swap";
+      document.head.appendChild(css);
+
+      // Evenly spaced slots in a strip along the top and one along the bottom, so letters never pile up or cover the text.
+      const COLOURS = ["#e8740c", "#12a07a", "#c99000", "#c94a8f", "#2a78d6", "#7a6fd0"];
+      const perStrip = innerWidth < 760 ? 6 : 11;
+      const order = GLYPHS.map((g, k) => [g, (k * 7) % GLYPHS.length]).sort((a, b) => a[1] - b[1]).map(([g]) => g); // mix the scripts
+      const box = intro.querySelector(".intro-glyphs");
+      for (let strip = 0; strip < 2; strip++) {
+        for (let k = 0; k < perStrip; k++) {
+          const n = strip * perStrip + k;
+          const s = document.createElement("span");
+          s.textContent = order[n % order.length];
+          const x = ((k + 0.5) / perStrip) * 100 + (Math.random() - 0.5) * (60 / perStrip);
+          s.style.cssText = `left:${x.toFixed(1)}%;${strip ? "bottom" : "top"}:${(8 + Math.random() * 18).toFixed(0)}px;` +
+            `--s:${(22 + Math.random() * 14).toFixed(0)}px;--c:${COLOURS[n % COLOURS.length]};--o:${(0.45 + Math.random() * 0.3).toFixed(2)};` +
+            `--d:${(2.2 + Math.random() * 1.8).toFixed(1)}s;--delay:${(0.2 + Math.random() * 1.2).toFixed(1)}s`;
+          box.appendChild(s);
+        }
+      }
+
+      // Reveal once the title font is in, so the heading doesn't jump from a fallback font (give up after 1.5 s).
+      const fonts = document.fonts ? Promise.all(["800 80px Fraunces", "italic 400 40px Fraunces", "italic 300 80px Fraunces"]
+        .map((f) => document.fonts.load(f))) : Promise.resolve();
+      Promise.race([fonts, new Promise((r) => setTimeout(r, 1500))]).then(() => intro.classList.add("ready"));
+
+      const go = document.getElementById("intro-go");
+      const leave = () => {
+        intro.classList.add("gone");
+        setTimeout(() => { intro.hidden = true; }, 700);
+      };
+      go.addEventListener("click", leave);
+      intro.addEventListener("keydown", (e) => { if (e.key === "Escape") leave(); });
+      go.focus({ preventScroll: true });
+    })();
+  </script>
+</body>
+</html>
